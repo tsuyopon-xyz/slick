@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Slick サンプルページ</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slick.css">
+
+    <!-- これがいわゆる「起動スクリプト」です -->
+    <script>
+        jQuery(function ($) {
+            $('.slides').slick();
+        })
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Slick サンプルページ</h1>
+
+        <div class="slides">
+            <div><img src="slide_01.png" alt=""></div>
+            <div><img src="slide_02.png" alt=""></div>
+            <div><img src="slide_03.png" alt=""></div>
+            <div><img src="slide_04.png" alt=""></div>
+            <div><img src="slide_05.png" alt=""></div>
+        </div><!-- /.slides -->
+    </div><!-- /.container -->
+
+
+    <script src="./js/jquery-3.1.0.js"></script>
+    <script src="./js/slick.js"></script>
+
+</body>
+
+</html>
